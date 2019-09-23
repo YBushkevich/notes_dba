@@ -7,8 +7,8 @@
 
 ## How To Use Rsync to Sync with a Remote System 
 
-(Link to read
-more)[https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps]
+[Link to read
+more](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps)
 
 
 Syncing to a remote system is trivial if you have SSH access to the remote
