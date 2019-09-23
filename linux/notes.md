@@ -52,7 +52,7 @@ We can "pull" or "push" files to server or from the server. "pull" is used to
 sync a remote directory to the local system. "push" is used to push directory
 from a local to a remote system.
 
-
+## 
 
 
 
