@@ -1,0 +1,15 @@
+Вопросы:
+
+Типы схем доступа.(!)
+
+usermod в двоичной системе!
+литеральный и номерной фомарт выдачи разрешений, и двоичный формат представления
+этих.
+
+chown
+
+Why we use dot or colon as delimeter in chown?
+Previous versions of the chown utility used the dot (``.'') character to
+distinguish the group name. This has been changed to be a colon (``:'')
+character, so that user and group names may contain the dot character
+
