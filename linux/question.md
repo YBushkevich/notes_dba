@@ -1,8 +1,28 @@
-<details close>
-<summary>What's the difference between "su" with and without hyphen?</summary>
-<br>
-The difference between "-" and "no hyphen" is that the latter keeps your existing environment (variables, etc); the former creates a new environment (with the settings of the actual user, not your own).
+## 1.Что такое файловый дескриптор?
 
-[Read more](https://wiki.archlinux.org/index.php/Su)
+Простыми словами при открытии файла операционная система создает запись для
+представления этого файла и сохраняет информацию об этом открывшемся файле.
+Итак, если в вашей ОС открыто 100 файлов, то в ОС будет находиться 100 записей
+(где-то в ядре). Эти записи представлены целыми числами типа (... 100, 101,
+102....). Этот номер записи является файловым дескриптором. Таким образом, это
+просто целое число, которое уникально представляет собой открытый файл в
+операционной системе. Если ваш процесс откроет 10 файлов, ваша таблица процессов
+будет содержать 10 записей для дескрипторов файлов.
 
-</details>
+## 2. Как посмотреть ЯЯ
+
+login and no login shell direfference
+что такое директория
+системные процессы и демны
+что хранится в inode
+планировщик 0
+
+
+
+
+
+
+
+
+
+
