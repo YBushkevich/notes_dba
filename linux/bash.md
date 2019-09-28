@@ -1,5 +1,22 @@
-# 9. Основы написания bash-скриптов
+## **9**. Основы написания bash-скриптов
 
+### Команды
+
+1. Перенаправление stdout в файл и на терминал
+
+   `ping tut.by | tee file1`
+
+2. Перенаправление stderr to stdout
+
+   `command >file1 2>&1`
+
+   or
+
+   `command &> file1`
+
+[Read about named pips](https://www.networkworld.com/article/3251853/why-use-named-pipes-on-linux.html)
+
+[Еще немного про пайпы](https://habr.com/ru/post/94350/)
 
 ### Внутренние переменные?
 
